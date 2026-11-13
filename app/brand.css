@@ -1,0 +1,42 @@
+/* OwnGen brand tokens */
+:root {
+  --og-mint: #26e096;
+  --og-navy: #0a1628;
+  --og-white: #ffffff;
+  --og-navy-800: #101f38;
+  --og-navy-700: #1a2c4a;
+  --og-navy-600: #2a4166;
+  --og-slate: #8fa1ba;
+  --og-mist: #eef3f8;
+  --og-mint-deep: #087a53;
+  --og-mint-tint: #d5f9ea;
+  --og-coral: #ff6b6b;
+  --og-amber: #ffb547;
+
+  --og-font-display: "Poppins", system-ui, sans-serif;
+  --og-font-body: "Inter", system-ui, sans-serif;
+  --og-font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --og-radius-small: 8px;
+  --og-radius-medium: 12px;
+  --og-radius-large: 20px;
+
+  /* dark theme (default) */
+  --og-bg: var(--og-navy);
+  --og-surface: var(--og-navy-800);
+  --og-border: var(--og-navy-600);
+  --og-text: var(--og-white);
+  --og-text-muted: var(--og-slate);
+  --og-accent: var(--og-mint);
+  --og-on-accent: var(--og-navy);
+}
+
+[data-theme="light"] {
+  --og-bg: var(--og-mist);
+  --og-surface: var(--og-white);
+  --og-border: #d5dee9;
+  --og-text: var(--og-navy);
+  --og-text-muted: #4a5b75;
+  --og-accent: var(--og-mint-deep);
+  --og-on-accent: var(--og-white);
+}
